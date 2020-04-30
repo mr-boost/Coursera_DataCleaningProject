@@ -1,33 +1,24 @@
-a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md
+#Code Book
+The resulting dataset includes summary measurements for each one of the 30 subjects for each activity on Acceleration and Velocity.
 
-
-For each record in the dataset it is provided:
-- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-- Triaxial Angular velocity from the gyroscope.
-- A 561-feature vector with time and frequency domain variables.
-- Its activity label.
-- An identifier of the subject who carried out the experiment. 
-
-subject
-
-activity
-
-body_acc_x
-
-body_acc_y
-
-body_acc_z
-
-body_gyro_x
-
-body_gyro_y
-
-body_gyro_z
-
-total_acc_x
-
-total_acc_y
-
-total_acc_z
-
-X
+Each record in the dataset has:
+- subject: a number from 1 to 30 that corresponds to the volunteer
+- activity: indicates one of the six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) that the subject was performing wearing a smartphone (Samsung Galaxy S II) on the waist.
+This is followed by the Mean Value and the Standard deviation for each of the following Triaxial acceleration (taken from the accelerometer) and Triaxial velocity (taken from the gyroscope) variable:
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
