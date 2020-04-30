@@ -1,4 +1,4 @@
-#Code Book
+# Code Book
 The resulting dataset includes summary measurements for each one of the 30 subjects for each activity on Acceleration and Velocity.
 
 Each record in the dataset has:
